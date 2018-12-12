@@ -1,0 +1,24 @@
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select your gender"
+            android:textSize="20sp"/>
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:id="@+id/spin"
+            android:entries="@array/gender"
+            android:layout_marginTop="5dp"/>
+
+</LinearLayout>

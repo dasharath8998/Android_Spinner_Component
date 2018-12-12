@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpinnerProject</string>
+
+    <string-array name="gender">
+        <item>लिंग चुनें</item>
+        <item>पुरुष</item>
+        <item>महिला</item>
+    </string-array>
+</resources>
